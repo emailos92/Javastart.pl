@@ -1,3 +1,7 @@
+package pl.javastart.library.app;
+
+import pl.javastart.library.model.Book;
+
 public class Library {
     public static void main(String[] args) {
         final String appName = "Biblioteka V0.3";
