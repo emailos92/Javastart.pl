@@ -8,7 +8,7 @@ public class Library {
                 "Helion", "9788324620845");
         Book book3 = new Book("SCJP Sun Certified Programmer for Java 6 Study Guide", "Bert Bates, Katherine Sierra",
                 2008, 851,
-                "McGraw-Hill Osborne Media", "9780071591065");
+                "McGraw-Hill Osborne Media");
 
         System.out.println(appName);
         System.out.println("Książki dostępne w bibliotece:");

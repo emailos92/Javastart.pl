@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa189709-58da-4a2e-814e-8eecdb40b171" name="Default Changelist" comment="" />
+    <list default="true" id="fa189709-58da-4a2e-814e-8eecdb40b171" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/javastart/app/PointApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/javastart/data/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/javastart/logic/PointLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../biblioteka/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../biblioteka/src/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../biblioteka/src/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../biblioteka/src/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/data/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/javastart/logic/CarShop.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +30,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1R0adEcInIDH8ZVJ4TbCHsb1nuF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propGUI" />
   </component>
   <component name="RunDashboard">
@@ -37,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CalcTest">
+  <component name="RunManager" selected="Application.PointApp">
     <configuration name="CalcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalcTest" />
       <module name="hello_world" />
@@ -46,7 +64,7 @@
       </method>
     </configuration>
     <configuration name="CarShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CarShop" />
+      <option name="MAIN_CLASS_NAME" value="pl.javastart.logic.CarShop" />
       <module name="hello_world" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -59,9 +77,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+    <configuration name="PointApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.javastart.app.PointApp" />
       <module name="hello_world" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.javastart.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CalcTest" />
+        <item itemvalue="Application.PointApp" />
         <item itemvalue="Application.CarShop" />
+        <item itemvalue="Application.CalcTest" />
         <item itemvalue="Application.Variables" />
         <item itemvalue="Application.DataTypes" />
-        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -95,5 +119,16 @@
       <updated>1568806553216</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
