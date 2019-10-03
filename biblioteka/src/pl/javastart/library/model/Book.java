@@ -70,7 +70,10 @@ public class Book {
     }
 
     public void printInfo() {
-        String info = getTitle() + "; " + getAuthor() + "; " + getReleaseDate() + "; " + getPages() + "; " + getPublisher() + "; " + getIsbn();
+        String info = getTitle() + "; " + getAuthor() + "; " + getReleaseDate() + "; " + getPages() + "; " + getPublisher();
+        if (getIsbn() != null) {
+            info = info + "; " + getIsbn();
+        }
         System.out.println(info);
     }
 }
