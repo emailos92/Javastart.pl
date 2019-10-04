@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa189709-58da-4a2e-814e-8eecdb40b171" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ArrayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GuessGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/hospital/app/HospitalApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/hospital/logic/HospitalLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/hospital/model/Hospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/hospital/model/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../biblioteka/src/pl/javastart/library/app/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../biblioteka/src/pl/javastart/library/app/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,23 +51,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayExample">
+  <component name="RunManager" selected="Application.HospitalApp">
     <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayExample" />
-      <module name="hello_world" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalcTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CalcTest" />
-      <module name="hello_world" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CarShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.javastart.logic.CarShop" />
       <module name="hello_world" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,6 +62,26 @@
     <configuration name="Company" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Company" />
       <module name="hello_world" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuessGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GuessGame" />
+      <module name="hello_world" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HospitalApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.hospital.app.HospitalApp" />
+      <module name="hello_world" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.hospital.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HospitalApp" />
+        <item itemvalue="Application.GuessGame" />
         <item itemvalue="Application.ArrayExample" />
         <item itemvalue="Application.Company" />
         <item itemvalue="Application.PointApp" />
-        <item itemvalue="Application.CarShop" />
-        <item itemvalue="Application.CalcTest" />
       </list>
     </recent_temporary>
   </component>
