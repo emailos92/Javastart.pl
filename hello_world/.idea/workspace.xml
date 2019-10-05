@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa189709-58da-4a2e-814e-8eecdb40b171" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GuessGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/hospital/app/HospitalApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/hospital/logic/HospitalLogic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/hospital/model/Hospital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/hospital/model/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../biblioteka/src/pl/javastart/library/app/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/../biblioteka/src/pl/javastart/library/app/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/university/University.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HospitalApp">
+  <component name="RunManager" selected="Application.ArrayExample">
     <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayExample" />
       <module name="hello_world" />
@@ -86,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PointApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.javastart.app.PointApp" />
+    <configuration name="University" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="university.University" />
       <module name="hello_world" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.javastart.app.*" />
+          <option name="PATTERN" value="university.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.University" />
         <item itemvalue="Application.HospitalApp" />
         <item itemvalue="Application.GuessGame" />
         <item itemvalue="Application.ArrayExample" />
         <item itemvalue="Application.Company" />
-        <item itemvalue="Application.PointApp" />
       </list>
     </recent_temporary>
   </component>
