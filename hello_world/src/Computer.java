@@ -1,21 +1,30 @@
 public class Computer {
-    String processor;
-    int memory;
 
-    //Computer(){
-    //    System.out.println("Tworzę nowy komputer");
-    //}
+    private double cpuTemperature;
+    private int ramMemory;
 
-    Computer(int a){
-        System.out.println("Tworzę nowy komputer" + a);
-        System.out.println(a = 10);
+    public Computer(double cpuTemperature, int ramMemory) {
+        this.cpuTemperature = cpuTemperature;
+        this.ramMemory = ramMemory;
     }
 
-    void printInfo(){
-        System.out.println(processor + " " + memory);
+    public double getCpuTemperature() {
+        return cpuTemperature;
     }
 
-    String getInfo(){
-        return processor + " " + memory;
+    public void setCpuTemperature(double cpuTemperature) {
+        this.cpuTemperature = cpuTemperature;
+    }
+
+    public int getRamMemory() {
+        return ramMemory;
+    }
+
+    public void setRamMemory(int ramMemory) {
+        this.ramMemory = ramMemory;
+    }
+
+    public void coolDown() {
+        cpuTemperature = cpuTemperature - 1;
     }
 }
