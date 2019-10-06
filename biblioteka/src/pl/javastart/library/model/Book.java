@@ -6,9 +6,7 @@ public class Book extends Publication{
     private String isbn;
 
     public Book(String title, String publisher, int year,  String author, int pages, String isbn) {
-        setTitle(title);
-        setPublisher(publisher);
-        setYear(year);
+        super(title,publisher,year);
         this.author = author;
         this.pages = pages;
         this.isbn = isbn;
