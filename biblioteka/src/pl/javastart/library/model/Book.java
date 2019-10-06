@@ -1,19 +1,17 @@
 package pl.javastart.library.model;
 
-public class Book {
-    private String title;
+public class Book extends Publication{
     private String author;
-    private int releaseDate;
     private int pages;
-    private String publisher;
     private String isbn;
 
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
+    public Book(String title, String publisher, int year,  String author, int pages, String isbn) {
+        setTitle(title);
+        setPublisher(publisher);
+        setYear(year);
+        this.author = author;
+        this.pages = pages;
+        this.isbn = isbn;
     }
 
     public String getAuthor() {
@@ -24,28 +22,12 @@ public class Book {
         this.author = author;
     }
 
-    public int getReleaseDate() {
-        return releaseDate;
-    }
-
-    public void setReleaseDate(int releaseDate) {
-        this.releaseDate = releaseDate;
-    }
-
     public int getPages() {
         return pages;
     }
 
     public void setPages(int pages) {
         this.pages = pages;
-    }
-
-    public String getPublisher() {
-        return publisher;
-    }
-
-    public void setPublisher(String publisher) {
-        this.publisher = publisher;
     }
 
     public String getIsbn() {
@@ -56,21 +38,9 @@ public class Book {
         this.isbn = isbn;
     }
 
-    public Book(String title, String author, int releaseDate, int pages, String publisher) {
-        setTitle(title);
-        setAuthor(author);
-        setReleaseDate(releaseDate);
-        setPages(pages);
-        setPublisher(publisher);
-    }
-
-    public Book(String title, String author, int releaseDate, int pages, String publisher, String isbn) {
-        this(title, author, releaseDate, pages, publisher);
-        setIsbn(isbn);
-    }
-
     public void printInfo() {
-        String info = getTitle() + "; " + getAuthor() + "; " + getReleaseDate() + "; " + getPages() + "; " + getPublisher();
+        String info = getTitle() + "; " + getPublisher() + "; " + getYear() + "; " +
+                getAuthor() + "; " + getPages();
         if (getIsbn() != null) {
             info = info + "; " + getIsbn();
         }

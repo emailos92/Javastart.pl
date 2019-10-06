@@ -3,13 +3,16 @@ package pl.javastart.library.app;
 import pl.javastart.library.io.DataReader;
 import pl.javastart.library.model.Book;
 import pl.javastart.library.model.Library;
+import pl.javastart.library.model.Magazine;
 
 public class LibraryControl {
 
     // zmienne do kontrolowania programu
     private final static int EXIT = 0;
     private final static int ADD_BOOK = 1;
-    private final static int PRINT_BOOKS = 2;
+    private final static int ADD_MAGAZINE = 2;
+    private final static int PRINT_BOOKS = 3;
+    private final static int PRINT_MAGAZINES = 4;
 
     // zmienna do komunikacji z użytkownikiem
     private DataReader dataReader = new DataReader();
@@ -30,8 +33,14 @@ public class LibraryControl {
                 case ADD_BOOK:
                     addBook();
                     break;
+                case ADD_MAGAZINE:
+                    addMagazine();
+                    break;
                 case PRINT_BOOKS:
                     printBooks();
+                    break;
+                case PRINT_MAGAZINES:
+                    printMagazines();
                     break;
                 case EXIT:
                     exit();
@@ -56,6 +65,15 @@ public class LibraryControl {
 
     private void printBooks() {
         library.printBooks();
+    }
+
+    private void addMagazine() {
+        Magazine magazine = dataReader.readAndCreateMagazine();
+        library.addMagazine(magazine);
+    }
+
+    private void printMagazines() {
+        library.printMagazines();
     }
 
     private void exit() {
