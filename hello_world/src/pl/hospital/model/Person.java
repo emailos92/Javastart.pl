@@ -1,14 +1,14 @@
 package pl.hospital.model;
 
-public class Patient {
+public class Person {
     private String firstName;
     private String lastName;
-    private String pesel;
+    private int salary;
 
-    public Patient(String firstName, String lastName, String pesel) {
+    public Person(String firstName, String lastName, int salary) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.pesel = pesel;
+        this.salary = salary;
     }
 
     public String getFirstName() {
@@ -27,15 +27,15 @@ public class Patient {
         this.lastName = lastName;
     }
 
-    public String getPesel() {
-        return pesel;
+    public int getSalary() {
+        return salary;
     }
 
-    public void setPesel(String pesel) {
-        this.pesel = pesel;
+    public void setSalary(int salary) {
+        this.salary = salary;
     }
 
-    public void printInfo(){
-        System.out.println(firstName + " " + lastName + " " + pesel);
+    public String getInfo(){
+        return "Imię: " + firstName + " Nazwisko: " + lastName + " Wypłata: " + salary;
     }
 }

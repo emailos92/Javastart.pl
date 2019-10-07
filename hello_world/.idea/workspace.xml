@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa189709-58da-4a2e-814e-8eecdb40b171" name="Default Changelist" comment="" />
+    <list default="true" id="fa189709-58da-4a2e-814e-8eecdb40b171" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pl/hospital/model/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/hospital/model/Nurse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pl/hospital/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompareNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Computer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComputerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComputerStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComputerUpgrade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Conversions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Credit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataTypes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuessGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MathOperators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Notebook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Variables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/hospital/app/HospitalApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/hospital/app/HospitalApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/hospital/logic/HospitalLogic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/hospital/model/Hospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/hospital/model/Hospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/hospital/model/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/javastart/app/PointApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/javastart/data/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/javastart/data/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/javastart/logic/CarShop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/javastart/logic/PointLogic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/university/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/university/University.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +67,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../biblioteka" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propGUI" />
   </component>
   <component name="RunDashboard">
@@ -43,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayExample">
+  <component name="RunManager" selected="Application.HospitalApp">
     <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayExample" />
       <module name="hello_world" />
@@ -93,8 +132,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.University" />
         <item itemvalue="Application.HospitalApp" />
+        <item itemvalue="Application.University" />
         <item itemvalue="Application.GuessGame" />
         <item itemvalue="Application.ArrayExample" />
         <item itemvalue="Application.Company" />

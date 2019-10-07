@@ -1,17 +1,19 @@
 package pl.hospital.app;
 
-import pl.hospital.logic.HospitalLogic;
+import pl.hospital.model.Doctor;
 import pl.hospital.model.Hospital;
-import pl.hospital.model.Patient;
+import pl.hospital.model.Nurse;
 
-public class HospitalApp {
+class HospitalApp {
+
     public static void main(String[] args) {
-        Hospital hospital = new Hospital(100);
-        HospitalLogic hospitalLogic = new HospitalLogic();
-        Patient patient = new Patient("Jan","Kowalski","92072903211");
+        Hospital hospital = new Hospital();
+        hospital.add(new Doctor("Maciek", "Prefeska", 7500, 1300));
+        hospital.add(new Nurse("Ania", "Dobroszewska", 2200, 6));
+        hospital.add(new Nurse("Marta", "Danielska", 2100, 3));
 
-        hospitalLogic.addPatientToQueue(hospital,patient);
-        hospitalLogic.showPatientsInQueue(hospital);
-        hospitalLogic.handleNextPatient(hospital);
+        System.out.println("Pracownicy szpitala: ");
+        System.out.println(hospital.getInfo());
     }
+
 }
